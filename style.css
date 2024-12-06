@@ -35,11 +35,18 @@ nav li a{
 a:hover{
     color:rgb(111, 80, 118)
 }
-
 body{
-    background-color: rgba((0), 0, 0, 0.2);
-    background-image:  url('check.png');
-    background-blend-mode:multiply;
-    background
-    font-size:cover;
+    background-color: rgba((0), 0, 0, 0.5);
+    background-image: url('check.png');
+    background-size:auto;
+    background-repeat: repeat;
+    border-image-slice: initial;
+}
+.posts{
+    position:fixed;
+    left: 500px;
+    background-color: rgba(133, 165, 154, 0.423);
+    width: 800px;
+    height: 500px;
+    top: 150px;
 }
